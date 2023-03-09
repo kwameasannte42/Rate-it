@@ -1,7 +1,10 @@
 import React from "react";
+import { LandingPage } from "./landing-page/LandingPage";
 
 function App() {
-  return <p>test</p>;
+  return (
+    <LandingPage />
+  );
 }
 
 export default App;
